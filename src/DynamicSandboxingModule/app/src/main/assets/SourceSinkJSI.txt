@@ -1,0 +1,59 @@
+<android.widget.Toast: void show()> -> _SINK_
+<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)> -> _SINK_
+<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>  -> _SINK_
+<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>  -> _SINK_
+
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>  -> _SINK_
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[])>  -> _SINK_
+<java.lang.Runtime: java.lang.Process exec(java.lang.String)>  -> _SINK_
+<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[])>  -> _SINK_
+<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>  -> _SINK_
+<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[],java.io.File)> -> _SINK_
+
+
+<android.webkit.WebView: void loadData(java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String,java.util.Map)>  -> _SINK_
+
+<android.app.Activity: void onDestroy()>  -> _SINK_
+<android.app.Activity: void finish()>  -> _SINK_
+<android.app.Activity: void finishActivity(int)>  -> _SINK_
+<android.app.Activity: void finishActivityFromChild(android.app.Activity,int)>  -> _SINK_
+<android.app.Activity: void finishAffinity()>  -> _SINK_
+<android.app.Activity: void finishAfterTransition()>  -> _SINK_
+<android.app.Activity: void finishAndRemoveTask()>  -> _SINK_
+<android.app.Activity: void finishFromChild(android.app.Activity)>  -> _SINK_
+<android.app.ActivityManager: void killBackgroundProcesses(java.lang.String)>  -> _SINK_
+<android.app.ActivityManager$AppTask: void finishAndRemoveTask()>  -> _SINK_
+<java.lang.System: void exit(int)>  -> _SINK_
+<java.lang.Process: void destroy()>  -> _SINK_
+<java.lang.Process: java.lang.Process destroyForcibly()>  -> _SINK_
+<android.os.Process: void killProcess(int)>  -> _SINK_
+<java.lang.Runtime: void exit(int)>  -> _SINK_
+<java.lang.Runtime: void halt(int)>  -> _SINK_
+<android.app.Service: void stopSelf()>  -> _SINK_
+<android.app.Service: void stopSelf(int)>  -> _SINK_
+<java.lang.Thread: void interrupt()>  -> _SINK_
+<java.lang.Thread: void stop()>  -> _SINK_
+<java.lang.Thread: void stop(java.lang.Throwable)>  -> _SINK_
+<java.lang.Thread: void suspend()> -> _SINK_
+
+<android.app.Activity: void startActivities(android.content.Intent[])>  -> _SINK_
+<android.app.Activity: void startActivities(android.content.Intent[],android.os.Bundle)>  -> _SINK_
+<android.app.Activity: void startActivity(android.content.Intent)>  -> _SINK_
+<android.app.Activity: void startActivity(android.content.Intent,android.os.Bundle)>  -> _SINK_
+<android.app.Activity: void startActivityForResult(android.content.Intent,int)>  -> _SINK_
+<android.app.Activity: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>  -> _SINK_
+<android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>  -> _SINK_
+<android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>  -> _SINK_
+<android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>  -> _SINK_
+<android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>  -> _SINK_
+<android.app.Activity: boolean startActivityIfNeeded(android.content.Intent,int)>  -> _SINK_
+<android.app.Activity: boolean startActivityIfNeeded(android.content.Intent,int,android.os.Bundle)>  -> _SINK_
+<android.app.ActivityManager$AppTask: void startActivity(android.content.Context,android.content.Intent,android.os.Bundle)> 
+<android.content.Intent: android.content.Intent getSelector()>  -> _SINK_
+<android.content.Intent: android.content.Intent makeMainActivity(android.content.ComponentName)>  -> _SINK_
+<android.content.Intent: android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)>  -> _SINK_
+<android.content.Intent: android.content.Intent makeRestartActivityTask(android.content.ComponentName)>  -> _SINK_
+

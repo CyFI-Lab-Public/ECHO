@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
+	<artifactId>soot-infoflow-android</artifactId>
+	<name>soot-infoflow-android</name>
+	<version>2.10.0</version>
+	<description>Android-specific components of FlowDroid</description>
+    <url>https://github.com/secure-software-engineering/FlowDroid</url>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+		<maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
+		<maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+		<maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:git@github.com:secure-software-engineering/FlowDroid.git</connection>
+		<developerConnection>scm:git:git@github.com:secure-software-engineering/FlowDroid.git</developerConnection>
+		<url>https://github.com/secure-software-engineering/FlowDroid/tree/develop</url>
+	</scm>
+
+
+	<organization>
+        <name>Fraunhofer SIT</name>
+        <url>https://www.sit.fraunhofer.de/</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU LESSER GENERAL PUBLIC LICENSE 2.1</name>
+            <url>https://www.gnu.org/licenses/lgpl-2.1.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Steven Arzt</name>
+            <email>steven.arzt@sit.fraunhofer.de</email>
+            <organization>Fraunhofer SIT</organization>
+            <organizationUrl>https://www.sit.fraunhofer.de/en/</organizationUrl>
+        </developer>
+    </developers>
+
+	<build>
+		<finalName>soot-infoflow-android-classes</finalName>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+		<outputDirectory>build/classes</outputDirectory>
+		<testOutputDirectory>build/testclasses</testOutputDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven-jar-plugin.version}</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>soot.jimple.infoflow.android.TestApps.Test</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven-source-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven-javadoc-plugin.version}</version>
+				<configuration>
+					<failOnError>false</failOnError>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		
+		<resources>
+	        <resource>
+	            <directory>.</directory>
+	            <includes>
+	                <include>AndroidCallbacks.txt</include>
+	                <include>SourcesAndSinks.txt</include>
+	                <include>schema</include>
+	            </includes>
+	        </resource>
+	        <resource>
+	        	<directory>schema</directory>
+	        	<targetPath>schema</targetPath>
+	        </resource>
+		</resources>
+	</build>
+	
+	<profiles>
+		<profile>
+			<id>sign-artifacts</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>3.0.1</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.32</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.32</version>
+		</dependency>
+		<dependency>
+			<groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
+			<artifactId>soot-infoflow</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>de.upb.cs.swt</groupId>
+			<artifactId>axml</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.19.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.esotericsoftware</groupId>
+		    <artifactId>kryo</artifactId>
+		    <version>5.2.1</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,17 @@
+
+%Network Fetching —> Local loading
+%<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()> -> _SOURCE_
+
+<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SOURCE_
+<java.util.zip.ZipInputStream: void <init>(java.io.InputStream)> -> _SOURCE_
+
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FileOutputStream: void write(int)> -> _SINK_
+
+% Local file handling 
+%<java.io.FileInputStream: int read(byte[])> -> _SOURCE_
+%<org.json.JSONObject: void <init>(java.lang.String)> -> _SINK_
+
+
+

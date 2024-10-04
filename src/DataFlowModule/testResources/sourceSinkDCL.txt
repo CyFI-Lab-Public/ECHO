@@ -1,0 +1,125 @@
+<java.net.URLConnection: void connect()> -> _SOURCE_
+<java.net.URL: java.io.InputStream openStream()> -> _SOURCE_
+
+<okhttp3.Response: okhttp3.ResponseBody body()> -> _SOURCE_
+<okhttp3.ResponseBody: java.io.InputStream byteStream()> -> _SOURCE_
+<okhttp3.Response: okhttp3.Response networkResponse()> -> _SOURCE_
+<okhttp3.Response: okhttp3.Response cacheResponse()> -> _SOURCE_
+<okhttp3.Response: java.lang.String toString()> -> _SOURCE_
+<okhttp3.Response: java.lang.String message()> -> _SOURCE_
+
+<retrofit2.Call: retrofit2.Response execute()> -> _SOURCE_
+<retrofit2.Call: retrofit2.Response enqueue()> -> _SOURCE_
+<retrofit2.Response: T body()> -> _SOURCE_
+
+<java.util.Scanner: void <init>(java.io.File)> -> _SOURCE_
+<java.util.Scanner: void <init>(java.io.File,java.lang.String)> -> _SOURCE_
+<java.util.Scanner: void <init>(java.nio.file.Path)> -> _SOURCE_
+<java.util.Scanner: void <init>(java.nio.file.Path,java.lang.String) -> _SOURCE_
+
+<java.io.FileReader: void <init>(java.io.File)> -> _SOURCE_
+<java.io.FileReader: void <init>(java.lang.String)> -> _SOURCE_
+<java.io.FileReader: void <init>(java.lang.String, java.nio.charset.Charset)> -> _SOURCE_
+<java.io.FileReader: void <init>(java.lang.String)> -> _SOURCE_
+<java.io.FileReader: void <init>(java.io.File, java.nio.charset.Charset)> -> _SOURCE_
+<java.io.FileInputStream: void <init>(java.lang.String)> -> _SOURCE_
+<java.io.FileInputStream: void <init>(java.io.File)> -> _SOURCE_
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)> -> _SOURCE_
+<android.content.res.AssetManager: java.io.InputStream open(java.lang.String,int)> -> _SOURCE_
+
+<java.nio.file.Files: java.util.stream.Stream<java.lang.String> lines(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: java.util.stream.Stream<java.lang.String> lines(java.nio.file.Path,java.nio.charset.Charset)> -> _SOURCE_
+<java.nio.file.Files: java.io.BufferedReader newBufferedReader(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: java.io.BufferedReader newBufferedReader(java.nio.file.Path,java.nio.charset.Charset)> -> _SOURCE_
+<java.nio.file.Files: java.util.List readAllLines(java.nio.file.Path,java.nio.charset.Charset)> -> _SOURCE_
+<java.nio.file.Files: java.util.List readAllLines(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: byte[] readAllBytes(java.nio.file.Path)> -> _SOURCE_
+
+
+
+
+
+
+
+<java.io.Writer: void write(char[])> -> _SINK_
+<java.io.Writer: void write(char[],int,int)> -> _SINK_
+<java.io.Writer: void write(int)> -> _SINK_
+<java.io.Writer: void write(java.lang.String)> -> _SINK_
+<java.io.Writer: void write(java.lang.String,int,int)> -> _SINK_
+<java.io.Writer: java.io.Writer append(java.lang.CharSequence)> -> _SINK_
+
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+<java.io.OutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.OutputStream: void write(int)> -> _SINK_
+
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FileOutputStream: void write(int)> -> _SINK_
+
+<java.io.BufferedWriter: void write(int c) -> _SINK_
+<java.io.BufferedWriter: void write(java.lang.String,int,int) -> _SINK_
+<java.io.BufferedWriter: void write(char[],int,int) -> _SINK_
+
+<java.io.PrintWriter: void write(int c) -> _SINK_
+<java.io.PrintWriter: void write(java.lang.String,int,int) -> _SINK_
+<java.io.PrintWriter: void write(char[],int,int) -> _SINK_
+<java.io.PrintWriter: void write(char[]) -> _SINK_
+<java.io.PrintWriter: void write(java.lang.String) -> _SINK_
+
+<java.io.DataOutputStream: void write(int)> -> _SINK_
+<java.io.DataOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.DataOutputStream: void writeBoolean(boolean)> -> _SINK_
+<java.io.DataOutputStream: void writeByte(int)> -> _SINK_
+<java.io.DataOutputStream: void writeShort(int)> -> _SINK_
+<java.io.DataOutputStream: void writeChar(int)> -> _SINK_
+<java.io.DataOutputStream: void writeInt(int)> -> _SINK_
+<java.io.DataOutputStream: void writeLong(long)> -> _SINK_
+<java.io.DataOutputStream: void writeFloat(float)> -> _SINK_
+<java.io.DataOutputStream: void writeDouble(double)> -> _SINK_
+<java.io.DataOutputStream: void writeBytes(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeChars(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeUTF(java.lang.String)> -> _SINK_
+
+<java.nio.file.Files: java.nio.file.Path write(java.nio.file.Path,byte[],java.nio.file.OpenOption[])> -> _SINK_
+<java.nio.file.Files: java.nio.file.Path write(java.nio.file.Path,java.lang.Iterable,java.nio.charset.Charset,java.nio.file.OpenOption[])> -> _SINK_
+<java.nio.file.Files: java.nio.file.Path write(java.nio.file.Path,java.lang.Iterable,java.nio.file.OpenOption[])> -> _SINK_
+
+
+
+<android.webkit.WebView: void loadData(java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String,java.util.Map)>  -> _SINK_
+
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String)> -> _SINK_
+<java.lang.ClassLoader: java.lang.Class loadClass(java.lang.String,boolean)> -> _SINK_
+<androidx.fragment.app.FragmentFactory: java.lang.Class loadClass(java.lang.ClassLoader,java.lang.String)> -> _SINK_
+
+
+
+<org.json.JSONObject: java.lang.String getString(java.lang.String)> -> _SOURCE_
+<org.json.JSONObject: java.lang.String getString(java.lang.String)> -> _SINK_
+
+<org.json.JSONObject: int getInt(java.lang.String)> -> _SOURCE_
+<org.json.JSONObject: int getInt(java.lang.String)> -> _SINK_
+
+<com.google.gson.JsonObject: com.google.gson.JsonElement get(java.lang.String)> -> _SOURCE_
+<com.google.gson.JsonObject: com.google.gson.JsonElement get(java.lang.String)> -> _SINK_
+
+<org.w3c.dom.Document: org.w3c.dom.NodeList getElementsByTagName(java.lang.String)> -> _SOURCE_
+<org.w3c.dom.Document: org.w3c.dom.NodeList getElementsByTagName(java.lang.String)> -> _SINK_
+
+<org.xmlpull.v1.XmlPullParser: java.lang.String nextText()> -> _SOURCE_
+<org.xmlpull.v1.XmlPullParser: java.lang.String nextText()> -> _SINK_
+
+<java.security.MessageDigest: byte[] digest(byte[])> -> _SOURCE_
+<java.security.MessageDigest: byte[] digest(byte[])> -> _SINK_
+
+<javax.crypto.Mac: byte[] doFinal(byte[])> -> _SOURCE_
+<javax.crypto.Mac: byte[] doFinal(byte[])> -> _SINK_
+
+<java.security.Signature: boolean verify(byte[])> -> _SOURCE_
+<java.security.Signature: boolean verify(byte[])> -> _SINK_
+
+<java.util.zip.Checksum: void update(byte[])> -> _SOURCE_
+<java.util.zip.Checksum: void update(byte[])> -> _SINK_

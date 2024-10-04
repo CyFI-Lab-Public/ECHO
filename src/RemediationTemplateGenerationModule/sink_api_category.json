@@ -1,0 +1,277 @@
+[
+    {
+        "method_signature": "<android.widget.Toast: void show()>",
+        "category": "#Toast",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>",
+        "category": "#Toast",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>",
+        "category": "#Toast",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>",
+        "category": "#Toast",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String[], java.lang.String[])>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String, java.lang.String[])>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String[], java.lang.String[], java.io.File)>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String, java.lang.String[], java.io.File)>",
+        "category": "#Execute",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.webkit.WebView: void loadData(java.lang.String,java.lang.String,java.lang.String)>",
+        "category": "#Webview",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+        "category": "#Webview",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.webkit.WebView: void loadUrl(java.lang.String)>",
+        "category": "#Webview",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.webkit.WebView: void loadUrl(java.lang.String,java.util.Map)>",
+        "category": "#Webview",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void onDestroy()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finish()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishActivity(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishActivityFromChild(android.app.Activity,int)>",
+        "category": "#Stop",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishAffinity()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishAfterTransition()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishAndRemoveTask()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void finishFromChild(android.app.Activity)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.ActivityManager: void killBackgroundProcesses(java.lang.String)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.ActivityManager$AppTask: void finishAndRemoveTask()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<java.lang.System: void exit(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Process: void destroy()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<java.lang.Process: java.lang.Process destroyForcibly()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.os.Process: void killProcess(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: void exit(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Runtime: void halt(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Service: void stopSelf()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Service: void stopSelf(int)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Service: boolean stopSelfResult(int)>Thread.destroy()>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Thread: void interrupt()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<java.lang.Thread: void stop()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<java.lang.Thread: void stop(java.lang.Throwable)>",
+        "category": "#Stop",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<java.lang.Thread: void suspend()>",
+        "category": "#Stop",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivities(android.content.Intent[])>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivities(android.content.Intent[],android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivity(android.content.Intent)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivity(android.content.Intent,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityForResult(android.content.Intent,int)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>",
+        "category": "#Intent",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>",
+        "category": "#Intent",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.app.Activity: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.app.Activity: boolean startActivityIfNeeded(android.content.Intent,int)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.Activity: boolean startActivityIfNeeded(android.content.Intent,int,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.app.ActivityManager$AppTask: void startActivity(android.content.Context,android.content.Intent,android.os.Bundle)>",
+        "category": "#Intent",
+        "key_parameter_position": 1
+    },
+    {
+        "method_signature": "<android.content.Intent: android.content.Intent getSelector()>",
+        "category": "#Intent",
+        "key_parameter_position": -1
+    },
+    {
+        "method_signature": "<android.content.Intent: android.content.Intent makeMainActivity(android.content.ComponentName)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.content.Intent: android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.content.Intent: android.content.Intent makeRestartActivityTask(android.content.ComponentName)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    },
+    {
+        "method_signature": "<android.content.Context: void startActivity(android.content.Intent)>",
+        "category": "#Intent",
+        "key_parameter_position": 0
+    }
+]

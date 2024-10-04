@@ -1,0 +1,364 @@
+{
+  "<com.iapptracker.d: java.lang.String getDeviceId()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getDeviceId()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getCurCpuFreq()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getCurCpuFreq()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getPlatformVersion()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getPlatformVersion()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getCurrentFormatTime()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getCurrentFormatTime()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getPlatform()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getPlatform()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMacAddr()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMacAddr()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getScreenSize()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getScreenSize()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMinCpuFreq()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMinCpuFreq()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getCurrentBattery()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getCurrentBattery()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getCpuName()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getCpuName()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: void saveFailUrl(java.lang.String,int)>": {
+    "sourceMethodSignature": "<com.iapptracker.e: void saveFailUrl(java.lang.String,int)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getModel()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getModel()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getSimIMEI()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getSimIMEI()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getPackageName()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getPackageName()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: void resendFailInfos()>": {
+    "sourceMethodSignature": "<com.iapptracker.e: void resendFailInfos()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void onOperactionStart(java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void onOperactionStart(java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: void setAppKey(java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.d: void setAppKey(java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void setAppRunBefore(boolean)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void setAppRunBefore(boolean)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void event(java.lang.String,java.util.Map)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void event(java.lang.String,java.util.Map)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getBSSID()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getBSSID()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getStartTime()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getStartTime()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: boolean isAppRunBefore()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: boolean isAppRunBefore()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: void sendingInfo(java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.e: void sendingInfo(java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String readEventInfos()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String readEventInfos()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getAppName()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getAppName()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void onOperactionEnd(java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void onOperactionEnd(java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMccMncCidLacCarrString()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMccMncCidLacCarrString()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String base64Encode(java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String base64Encode(java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getManufacturer()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getManufacturer()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: boolean isDebugEnable()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: boolean isDebugEnable()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: boolean isPrimaryAdded()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: boolean isPrimaryAdded()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMemTsFsString()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMemTsFsString()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getlatLngString()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getlatLngString()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getAppPublishChannel()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getAppPublishChannel()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: boolean isZipped()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: boolean isZipped()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getAppPublishChannel()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getAppPublishChannel()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getStartBattery()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getStartBattery()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: int getFailUrlCount()>": {
+    "sourceMethodSignature": "<com.iapptracker.e: int getFailUrlCount()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getArea()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getArea()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getAppOpenCount()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getAppOpenCount()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getConnectionType()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getConnectionType()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getOperactionDuration(java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getOperactionDuration(java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getRunningTime()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getRunningTime()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getAppList()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getAppList()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMacAddrSha1()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMacAddrSha1()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String isActiveNetwork()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String isActiveNetwork()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getEndTime()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getEndTime()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: void removeFailUrl(java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.e: void removeFailUrl(java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMacAddrMd5()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMacAddrMd5()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getWasteBattery()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getWasteBattery()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void setOperactionDuration(java.lang.String,java.lang.String,double)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void setOperactionDuration(java.lang.String,java.lang.String,double)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getIMSI()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getIMSI()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getAppVersion()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getAppVersion()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getEndBattery()>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getEndBattery()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getScreenResolution()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getScreenResolution()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void eventEnd(java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void eventEnd(java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getAppKey()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getAppKey()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getMaxCpuFreq()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getMaxCpuFreq()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String getRomTsFsString()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getRomTsFsString()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: java.lang.String getCustomValue(java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: java.lang.String getCustomValue(java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: boolean isEncrypted()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: boolean isEncrypted()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void eventStart(java.lang.String,java.lang.String,java.util.Map)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void eventStart(java.lang.String,java.lang.String,java.util.Map)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.e: void removeAllFailUrls()>": {
+    "sourceMethodSignature": "<com.iapptracker.e: void removeAllFailUrls()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.d: java.lang.String runCmd(java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String runCmd(java.lang.String)>",
+    "sinkMethods": {
+      "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>": {
+        "sinkMethodSignature": "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>",
+        "isStatic": false,
+        "base": {
+          "argType": "java.lang.Runtime",
+          "argIndex": -1,
+          "isBase": true,
+          "argSources": []
+        },
+        "args": [
+          {
+            "argType": "java.lang.String",
+            "argIndex": 0,
+            "isBase": false,
+            "argSources": [
+              {
+                "sourceType": "java.lang.String",
+                "sourceIndex": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "calledMethods": [
+      "<java.io.BufferedReader: java.lang.String readLine()>",
+      "<java.io.BufferedReader: void <init>(java.io.Reader)>",
+      "<java.lang.StringBuilder: void <init>(java.lang.String)>",
+      "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>",
+      "<java.lang.Runtime: java.lang.Runtime getRuntime()>",
+      "<java.lang.Process: java.io.InputStream getInputStream()>",
+      "<java.io.InputStreamReader: void <init>(java.io.InputStream)>"
+    ]
+  },
+  "<com.iapptracker.d: java.lang.String getSDCardTsFsString()>": {
+    "sourceMethodSignature": "<com.iapptracker.d: java.lang.String getSDCardTsFsString()>",
+    "sinkMethods": {},
+    "calledMethods": []
+  },
+  "<com.iapptracker.f: void setCustomValue(java.lang.String,java.lang.String,java.lang.String)>": {
+    "sourceMethodSignature": "<com.iapptracker.f: void setCustomValue(java.lang.String,java.lang.String,java.lang.String)>",
+    "sinkMethods": {},
+    "calledMethods": []
+  }
+}

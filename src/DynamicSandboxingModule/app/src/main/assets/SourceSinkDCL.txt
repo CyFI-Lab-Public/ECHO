@@ -1,0 +1,64 @@
+<java.util.Scanner: void <init>(java.io.File)> -> _SOURCE_
+<java.io.FileReader: void <init>(java.io.File)> -> _SOURCE_
+<java.io.FileInputStream: void <init>(java.lang.String)> -> _SOURCE_
+
+<java.nio.file.Files: java.util.stream.Stream<java.lang.String> lines(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: java.io.BufferedReader newBufferedReader(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: java.util.List readAllLines(java.nio.file.Path)> -> _SOURCE_
+<java.nio.file.Files: byte[] readAllBytes(java.nio.file.Path)> -> _SOURCE_
+
+<android.webkit.WebView: void loadData(java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>  -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String)>  -> _SINK_
+
+<com.android.okhttp.internal.huc.HttpURLConnectionImpl: void connect()> -> _SOURCE_
+<java.net.URL: java.io.InputStream openStream()> -> _SOURCE_
+<java.net.URL: java.net.URLConnection openConnection()> -> _SOURCE_
+<java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)> -> _SOURCE_
+<okhttp3.Response: okhttp3.ResponseBody body()> -> _SOURCE_
+<okhttp3.ResponseBody: java.io.InputStream byteStream()> -> _SOURCE_
+<okhttp3.Response: okhttp3.Response networkResponse()> -> _SOURCE_
+<okhttp3.Response: okhttp3.Response cacheResponse()> -> _SOURCE_
+<okhttp3.Response: java.lang.String toString()> -> _SOURCE_
+<okhttp3.Response: java.lang.String message()> -> _SOURCE_
+<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.message.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SOURCE_
+
+
+<java.io.Writer: void write(java.lang.String,int,int)> -> _SINK_
+<java.io.Writer: java.io.Writer append(java.lang.CharSequence)> -> _SINK_
+
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.BufferedWriter: void write(int)> -> _SINK_
+<java.io.PrintWriter: void write(int)> -> _SINK_
+
+<java.io.DataOutputStream: void write(int)> -> _SINK_
+<java.io.DataOutputStream: void writeBoolean(boolean)> -> _SINK_
+<java.io.DataOutputStream: void writeByte(int)> -> _SINK_
+<java.io.DataOutputStream: void writeShort(int)> -> _SINK_
+<java.io.DataOutputStream: void writeChar(int)> -> _SINK_
+<java.io.DataOutputStream: void writeInt(int)> -> _SINK_
+<java.io.DataOutputStream: void writeLong(long)> -> _SINK_
+<java.io.DataOutputStream: void writeFloat(float)> -> _SINK_
+<java.io.DataOutputStream: void writeDouble(double)> -> _SINK_
+<java.io.DataOutputStream: void writeBytes(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeChars(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeUTF(java.lang.String)> -> _SINK_
+
+<java.nio.file.Files: java.nio.file.Path write(java.nio.file.Path,java.lang.Iterable,java.nio.file.OpenOption[])> -> _SINK_
+
+<java.io.File: boolean renameTo(java.io.File)> -> _OTHER_
+<java.nio.file.Files: java.nio.file.Path move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> -> _OTHER_
+<java.nio.file.Files: java.nio.file.Path copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> -> _OTHER_
+<android.os.FileUtils: long copy(java.io.FileDescriptor,java.io.FileDescriptor)> -> _OTHER_
+
+<java.nio.file.Files: void delete(java.nio.file.Path)> -> _OTHER_
+<java.nio.file.Files: boolean deleteIfExists(java.nio.file.Path)> -> _OTHER_
+<java.io.File: boolean delete()> -> _OTHER_
+<java.io.File: void deleteOnExit()> -> _OTHER_
+
+
+<java.util.zip.ZipInputStream: void <init>(java.io.InputStream)> -> _SOURCE_
+<org.json.JSONObject: void <init>(java.lang.String)> -> _SINK_
+<org.json.JSONObject: java.lang.String getString(java.lang.String)> -> _SOURCE_

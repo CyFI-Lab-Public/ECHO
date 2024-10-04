@@ -1,0 +1,248 @@
+[
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.HistoryActivity",
+    "path": [
+      "$r13 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"MaxSaveURLCount\")!ln92",
+      "$r7[5] = $r13!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.phone.ActivityWelcome",
+    "path": [
+      "$r11 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"Receive3rdURL\")!ln92",
+      "$r7[3] = $r11!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.push.PushService",
+    "path": [
+      "$r2 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"ExpiredTime\")!ln92",
+      "$r7[1] = $r2!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.CachePageActivity",
+    "path": [
+      "$r12 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"ScriptURL\")!ln92",
+      "specialinvoke $r20.<java.lang.StringBuilder: void <init>(java.lang.String)>($r12)!ln92",
+      "$r8 = virtualinvoke $r20.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(\".zip\")!ln92",
+      "$r12 = virtualinvoke $r8.<java.lang.StringBuilder: java.lang.String toString()>()!ln92",
+      "$r7[4] = $r12!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.umeng.common.net.DownloadingService",
+    "path": [
+      "$r14 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"RunningTimeInterval\")!ln92",
+      "$r7[6] = $r14!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.umeng.common.net.DownloadingService",
+    "path": [
+      "$r15 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"BackgroundCheckInterval\")!ln92",
+      "$r7[7] = $r15!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.SearchActivity",
+    "path": [
+      "$r3 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"ReceiveTGURL\")!ln92",
+      "$r7[2] = $r3!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.umeng.common.net.DownloadingService",
+    "path": [
+      "$r16 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"ForeSessionInterval\")!ln92",
+      "$r7[8] = $r16!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: java.lang.String getString(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[])>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[])>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.MyCenterSettingsActivity",
+    "path": [
+      "$r1 = virtualinvoke $r10.<org.json.JSONObject: java.lang.String getString(java.lang.String)>(\"HTMLContent\")!ln92",
+      "$r7[0] = $r1!ln92",
+      "$r2 = $r7[0]!ln94",
+      "$r18 = virtualinvoke $r2.<java.lang.String: byte[] getBytes()>()!ln94",
+      "virtualinvoke $r17.<java.io.FileOutputStream: void write(byte[])>($r18)!ln94"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<java.io.FileInputStream: void <init>(java.io.File)>",
+      "stack": [
+        "<java.io.FileInputStream: void <init>(java.io.File)>",
+        "<com.iapptracker.b: java.lang.String a(java.io.File)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "sink": {
+      "methodName": "<org.json.JSONObject: void <init>(java.lang.String)>",
+      "stack": [
+        "<org.json.JSONObject: void <init>(java.lang.String)>",
+        "<com.iapptracker.a: void a()>"
+      ]
+    },
+    "entryPointClass": "com.umeng.common.net.DownloadingService",
+    "path": [
+      "specialinvoke $r1.<java.io.FileInputStream: void <init>(java.io.File)>($r0)!ln77",
+      "$i0 = virtualinvoke $r1.<java.io.InputStream: int read(byte[])>($r3)!ln80",
+      "virtualinvoke $r2.<java.io.ByteArrayOutputStream: void write(byte[],int,int)>($r3, 0, $i0)!ln82",
+      "$r4 = virtualinvoke $r2.<java.io.ByteArrayOutputStream: java.lang.String toString()>()!ln85",
+      "$r4 = virtualinvoke $r4.<java.lang.String: java.lang.String trim()>()!ln85",
+      "return $r4!ln88",
+      "specialinvoke $r21.<org.json.JSONObject: void <init>(java.lang.String)>($r1)!ln92"
+    ]
+  }
+]

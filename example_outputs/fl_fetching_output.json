@@ -1,0 +1,50 @@
+[
+  {
+    "source": {
+      "methodName": "<java.util.zip.ZipInputStream: void <init>(java.io.InputStream)>",
+      "stack": [
+        "<java.util.zip.ZipInputStream: void <init>(java.io.InputStream)>",
+        "<com.iapptracker.b: void c(java.lang.String,java.lang.String)>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[],int,int)>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[],int,int)>",
+        "<com.iapptracker.b: void c(java.lang.String,java.lang.String)>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.SearchActivity",
+    "path": [
+      "specialinvoke $r5.<java.util.zip.ZipInputStream: void <init>(java.io.InputStream)>($r6)!ln236",
+      "$i0 = virtualinvoke $r5.<java.util.zip.ZipInputStream: int read(byte[])>($r4)!ln249",
+      "virtualinvoke $r13.<java.io.FileOutputStream: void write(byte[],int,int)>($r4, 0, $i0)!ln250"
+    ]
+  },
+  {
+    "source": {
+      "methodName": "<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>",
+      "stack": [
+        "<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>",
+        "<com.iapptracker.a: org.apache.http.HttpEntity c(java.lang.String)>",
+        "<com.iapptracker.a: java.lang.String b(java.lang.String)>"
+      ]
+    },
+    "sink": {
+      "methodName": "<java.io.FileOutputStream: void write(byte[],int,int)>",
+      "stack": [
+        "<java.io.FileOutputStream: void write(byte[],int,int)>",
+        "<com.iapptracker.a: java.lang.String b(java.lang.String)>"
+      ]
+    },
+    "entryPointClass": "com.youku.ui.activity.SearchActivity",
+    "path": [
+      "$r3 = virtualinvoke $r2.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1)!ln274",
+      "$r4 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>()!ln275",
+      "return $r4!ln280",
+      "$r9 = interfaceinvoke $r8.<org.apache.http.HttpEntity: java.io.InputStream getContent()>()!ln254",
+      "$i0 = virtualinvoke $r9.<java.io.InputStream: int read(byte[])>($r10)!ln258",
+      "virtualinvoke $r2.<java.io.FileOutputStream: void write(byte[],int,int)>($r10, 0, $i0)!ln260"
+    ]
+  }
+]

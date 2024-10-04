@@ -1,0 +1,19 @@
+% Local file handling
+<java.io.FileInputStream: void <init>(java.io.File)> -> _SOURCE_
+<org.json.JSONObject: void <init>(java.lang.String)> -> _SINK_
+
+
+
+
+%Decoding
+<org.json.JSONObject: java.lang.String getString(java.lang.String)> -> _SOURCE_
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FileOutputStream: void write(int)> -> _SINK_
+
+
+
+
+
+
+
