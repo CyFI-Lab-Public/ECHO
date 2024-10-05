@@ -6,6 +6,10 @@ SCRIPT_PATH=$(realpath "$0")
 # Get the parent directory of the script
 PARENT_DIR=$(dirname "$(dirname "$SCRIPT_PATH")")
 
+if [ ! -d "$PARENT_DIR/output" ]; then
+    mkdir "$PARENT_DIR/output"
+fi
+
 
 cd $PARENT_DIR 
 

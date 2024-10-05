@@ -6,6 +6,11 @@ SCRIPT_PATH=$(realpath "$0")
 # Get the parent directory of the script
 PARENT_DIR=$(dirname "$(dirname "$SCRIPT_PATH")")
 
+if [ ! -d "$PARENT_DIR/output" ]; then
+    mkdir "$PARENT_DIR/output"
+fi
+
+
 
 APK_FILE_PATH="artifacts/com.youku.phone_malware.apk"
 JAR_FILE_PATH="artifacts/soot-infoflow-cmd.jar"
