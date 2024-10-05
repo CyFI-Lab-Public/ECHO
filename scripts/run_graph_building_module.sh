@@ -6,6 +6,8 @@ SCRIPT_PATH=$(realpath "$0")
 # Get the parent directory of the script
 PARENT_DIR=$(dirname "$(dirname "$SCRIPT_PATH")")
 
+
+
 if [ ! -d "$PARENT_DIR/output" ]; then
     mkdir "$PARENT_DIR/output"
 fi
@@ -42,4 +44,4 @@ OUTPUT_PATH="output/modeling_graph.json"
 OUTPUT_JSI_OF_INTEREST_PATH="output/jsi_of_interest.json"
 
 # Run the Python script with the provided parameters
-python "$PYTHON_SCRIPT" --df_paths "$DATAFLOW_RESULT_PATHS" --dv_paths "$DYNAMIC_VERTICES_PATHS" --output_path "$OUTPUT_PATH" --output_jsi_of_interest_path "$OUTPUT_JSI_OF_INTEREST_PATH"
+python3 "$PYTHON_SCRIPT" --df_paths "$DATAFLOW_RESULT_PATHS" --dv_paths "$DYNAMIC_VERTICES_PATHS" --output_path "$OUTPUT_PATH" --output_jsi_of_interest_path "$OUTPUT_JSI_OF_INTEREST_PATH"

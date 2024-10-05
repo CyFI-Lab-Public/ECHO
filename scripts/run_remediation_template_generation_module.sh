@@ -14,4 +14,4 @@ PACKAGE_NAME="com.youku.phone"
 OUTPUT_PATH="output/template_output"
 
 # Run the Python script with the provided parameters
-python "$PYTHON_SCRIPT" --graph_file_path "$GRAPH_FILE_PATH" --package_name "$PACKAGE_NAME" --output_path "$OUTPUT_PATH"
+python3 "$PYTHON_SCRIPT" --graph_file_path "$GRAPH_FILE_PATH" --package_name "$PACKAGE_NAME" --output_path "$OUTPUT_PATH"

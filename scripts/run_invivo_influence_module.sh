@@ -26,4 +26,4 @@ INFLUENCE_PATH="output/fl_influence_output.json"
 OUTPUT_PATH="output/modeling_graph_with_influence.json"
 
 # Run the Python script with the provided parameters
-python "$PYTHON_SCRIPT" --graph_file_path "$GRAPH_FILE_PATH" --influence_path "$INFLUENCE_PATH" --output "$OUTPUT_PATH"
+python3 "$PYTHON_SCRIPT" --graph_file_path "$GRAPH_FILE_PATH" --influence_path "$INFLUENCE_PATH" --output "$OUTPUT_PATH"
