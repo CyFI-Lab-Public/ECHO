@@ -185,7 +185,7 @@ See scripts for more details about customizable parameters.
 
 This module outputs remediation payload templates in the ```output/template_output``` folder as multiple JS files. For the provided sample, the remediation template will call the previously identified ```runCmd``` API within the JavaScript payload to call the system API ```Runtime.exec```, enabling both victim notification and malware deletion capabilities.
 
-We also provide the demo video to showcase the remediation via deploying this remediation payload to malware samples through a MITM proxy. However, the users can use additional artifacts in [DynamicSandboxingMITMProxy](https://github.com/CyFI-Lab-Public/ECHO/tree/main/src/DynamicSandboxingMITMProxy) to reproduce this remediation by themselves, see more details in [DynamicSandboxingMITMProxy](https://github.com/CyFI-Lab-Public/ECHO/tree/main/src/DynamicSandboxingMITMProxy). 
+We also provide the demo video to showcase the remediation via deploying this remediation payload to malware samples through a MITM proxy. However, the users can use additional artifacts in [DynamicSandboxingMITMProxy](src/DynamicSandboxingMITMProxy) to reproduce this remediation by themselves, see more details in [DynamicSandboxingMITMProxy](src/DynamicSandboxingMITMProxy). 
 
 
 
