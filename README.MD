@@ -26,15 +26,15 @@ This is the first module of ECHO's pipeline that simulates the input malware APK
 1. [Android Studio](https://developer.android.com/studio) is required to build the dynamic sandbox agent app and the method hooking plugin. See the official website for more details.
 
 
-2. [Xposed](https://api.xposed.info/reference/packages.html) s required to inject analysis code into the malware process. Detailed instructions on configuring the phone and installing Xposed can be found in the [DynamicSandboxingModule](https://github.com/CyFI-Lab-Public/ECHO/tree/main/src/DynamicSandboxingModule).
+2. [Xposed](https://api.xposed.info/reference/packages.html) s required to inject analysis code into the malware process. Detailed instructions on configuring the phone and installing Xposed can be found in the [DynamicSandboxingModule](src/DynamicSandboxingModule).
 
-3. [MitMProxy](https://mitmproxy.org/) is required to interpret network requests and log corresponding information. See [DynamicSandboxingMITMProxy](https://github.com/CyFI-Lab-Public/ECHO/tree/main/src/DynamicSandboxingMITMProxy) for more details. 
+3. [MitMProxy](https://mitmproxy.org/) is required to interpret network requests and log corresponding information. See [DynamicSandboxingMITMProxy](src/DynamicSandboxingMITMProxy) for more details. 
 
 
 
 
 #### Notes for Artifact Evaluation Users 
-We understand the limited access reviewers may have to specific hardware devices. It is challenging to run this module on a generic desktop/emulator. As an alternative, we provide pre-collected results for this module in the ```artifacts``` folder as ```dynamic_sandboxing_result.json```. You may also refer to the paper or the [demo video](www.youtube.com/channel/UCXWT7OaYugn1vSIqeFoqdsw) for more details.
+We understand the limited access reviewers may have to specific hardware devices. It is challenging to run this module on a generic desktop/emulator. As an alternative, we provide pre-collected results for this module in the ```artifacts``` folder as ```dynamic_sandboxing_result.json```. You may also refer to the paper or the [demo video](https://www.youtube.com/channel/UCXWT7OaYugn1vSIqeFoqdsw) for more details.
 
 ### Usage 
 1. Install target malware sample on the phone.
