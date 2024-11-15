@@ -205,8 +205,7 @@ Pre-configured input/output parameters are included in each script within the sc
 
 We thank the artifact evaluation committee and reviewers for their efforts.
 
-
-### Dataset
-We disclosed the hashes for malware samples used in our evaluation as [artifacts/malware_hashes.txt](artifacts/malware_hashes.txt)
+### Update: 
+We updated the code for building the automation pipeline to run ECHO at scale, and the hashes for malware samples used in our evaluation as [artifacts/malware_hashes.txt](artifacts/malware_hashes.txt)
 
 
