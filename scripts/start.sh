@@ -11,9 +11,10 @@ if [ ! -d "$PARENT_DIR/output" ]; then
 fi
 
 
+
+
 cd $PARENT_DIR 
 
-# bash scripts/run_data_flow_analysis_module.sh
 bash scripts/run_graph_building_module.sh
 bash scripts/run_invivo_influence_module.sh
 bash scripts/run_remediation_template_generation_module.sh

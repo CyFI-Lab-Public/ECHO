@@ -254,17 +254,3 @@ if __name__ == "__main__":
     print('Start generating templates')
     main()
     
-    
-    
-    
-    
-    
-    
-    
-    # # # test cases 
-    # generate_tempalte("ce", "RequestInfoControllerBridge", "testAPI", "tv.huohua.android.ocher", 0, 1, "./output/notifyUser.js")
-    # generate_tempalte("webview", "RequestInfoControllerBridge", "testAPI", "tv.huohua.android.ocher", 1, 3, "./output/webview.js")
-    # generate_tempalte("tst", "RequestInfoControllerBridge", "testAPI", "tv.huohua.android.ocher", 1, 3, "./output/toast.js")
-    # generate_tempalte("int", "RequestInfoControllerBridge", "testAPI", "tv.huohua.android.ocher", 1, 3, "./output/intent.js")
-    # generate_tempalte("terminate", "RequestInfoControllerBridge", "testAPI", "tv.huohua.android.ocher", 1, 3, "./output/terminate.js")
-

@@ -8,7 +8,7 @@ from kafka import KafkaConsumer, KafkaProducer
 from bson import json_util
 
 
-PROJ_ROOT_FOLDER = os.environ['GLEAN_PATH']
+PROJ_ROOT_FOLDER = os.environ[' PROJ_PATH']
 if not PROJ_ROOT_FOLDER in sys.path:
     sys.path.append(PROJ_ROOT_FOLDER)
 
